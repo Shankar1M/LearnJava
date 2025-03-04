@@ -17,6 +17,7 @@ public class BinarySearchDemo {
 		int key = scan.nextInt();
 		int low= 0;
 		int high= arr.length-1;
+		// The below lines shows the binary search algorithm logic
 		while(low<=high)
 		{
 			int mid = (low + high) /2;
