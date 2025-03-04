@@ -7,6 +7,7 @@ public class BinarySearchDemo {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter Array Length");
 		int []arr= new int[scan.nextInt()];
+	
 		System.out.println("Enter Array contents");
 		for(int i=0; i<=arr.length-1;i++)
 		{
